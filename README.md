@@ -1,6 +1,6 @@
 # **Project 4** - Predicting Credit Card Customer Attrition
 ## **Group 1:** Alex Delacruz, Bennett Northcutt, Emily Neaville, Hays Kronke, and Stephen Mims
-### **Dataset:** https://zenodo.org/record/4322342#.Y8OsBdJBwUE
+## **Dataset:** https://zenodo.org/record/4322342#.Y8OsBdJBwUE
 
 **Summary:**
 
