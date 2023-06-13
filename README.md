@@ -30,7 +30,7 @@ After reading in and cleaning the data, we were able to conduct some exploratory
 - Scaled the data
 
 ## Model results
-We built a KNN model, a random forest model, and a logisitic regression model. The confusion matrices
+We built a KNN model, a random forest model, and a logisitic regression model. The confusion matrices for all three models can be seen below.
 ![KNN](https://github.com/hdkronke/Project4/blob/main/Figures/KNN.png)
 ![random forest](https://github.com/hdkronke/Project4/blob/main/Figures/RandomForest.png)
 ![Logistic Regression](https://github.com/hdkronke/Project4/blob/main/Figures/LogisticRegression.png)
