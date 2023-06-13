@@ -21,6 +21,7 @@ Libraries used: pandas, sqlite3, seaborn, matplotlib, numpy, scipy, scikit-learn
 
 ## Data loading and EDA
 After reading in and cleaning the data, we were able to conduct some exploratory analysis. The main takeaway from this in regard to building our machine learning models was taking note of the imbalanced classes. There were many more instances of existing customers than there were of attrited customers, as shown in this visualization.
+
 ![attrition_bar](https://github.com/hdkronke/Project4/blob/main/Figures/attrition_bar.png)
 
 ## Data preprocessing
@@ -31,6 +32,7 @@ After reading in and cleaning the data, we were able to conduct some exploratory
 
 ## Model results
 We built a KNN model, a random forest model, and a logisitic regression model. The confusion matrices for all three models can be seen below.
+
 ![KNN](https://github.com/hdkronke/Project4/blob/main/Figures/KNN.png)
 ![random forest](https://github.com/hdkronke/Project4/blob/main/Figures/RandomForest.png)
 ![Logistic Regression](https://github.com/hdkronke/Project4/blob/main/Figures/LogisticRegression.png)
@@ -38,8 +40,18 @@ We built a KNN model, a random forest model, and a logisitic regression model. T
 ## Feature Importance
 Creating the random forest model allows us to identify the most important features of the model
 After visualizing the important features, we create a new dataframe dropping some features and retrained our models for performance improved.
+
 ![feature importance](https://github.com/hdkronke/Project4/blob/main/Figures/feature_importances.png)
 
 ## Final model
 After retraining theKNearestNeighbors, the logistic regression, and the random forest models with the selected features, the random forest model still maintained the best performance. Using feature selection, we were able to slightly increase the accuracy by 1% and the recall of the model, which went from 84% to 87%. There was a slight decrease in the precision of the model, but in the end that was a hit we were willing to take for the improved performance. The confusion matrix of the optimized model of choice can be seen below.
+
 ![optimized random forest model](https://github.com/hdkronke/Project4/blob/main/Figures/RF_optimized.png)
+
+#### References
+[Feature Selection Techniques in Machine Learning with Python](https://towardsdatascience.com/feature-selection-techniques-in-machine-learning-with-python-f24e7da3f36e)<br/>
+[Baseline Models: Your Guide For Model Building](https://towardsdatascience.com/baseline-models-your-guide-for-model-building-1ec3aa244b8d)<br/>
+[scipy zscore docs](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.zscore.html)<br/>
+[Improve Model Performance using Feature Importance](https://towardsdatascience.com/improve-model-performance-using-feature-importance-55742402fadc)<br/>
+[Random Oversampling and Undersampling for Imbalanced Classification](https://machinelearningmastery.com/random-oversampling-and-undersampling-for-imbalanced-classification/)<br/>
+[How to improve logistic regression in imbalanced data with class weights](https://medium.com/@data.science.enthusiast/how-to-improve-logistic-regression-in-imbalanced-data-with-class-weights-1693719136aa)<br/>
