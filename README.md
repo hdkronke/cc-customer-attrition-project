@@ -17,7 +17,7 @@ Our group will use the dataset to build  machine learning models that can accura
 6. Feature selection
 7. Optimized models using feature importance
 
-Libraries used: pandas, sqlite3, seaborn, matplotlib, numpy, scipy, sklearn
+Libraries used: pandas, sqlite3, seaborn, matplotlib, numpy, scipy, scikit-learn
 
 ## Data loading and EDA
 After reading in and cleaning the data, we were able to conduct some exploratory analysis. The main takeaway from this in regard to building our machine learning models was taking note of the imbalanced classes. There were many more instances of existing customers than there were of attrited customers, as shown in this visualization.
