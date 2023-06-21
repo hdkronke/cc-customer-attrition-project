@@ -1,5 +1,5 @@
 # Credit Card Customer Attrition Project
-## Module 23
+## Machine Learning
 ### This project was a collaboration between Hays Kronke, Emily Neaville, Bennett Northcutt, and Stephen Mims
 #### Dataset: https://zenodo.org/record/4322342#.Y8OsBdJBwUE
 ---
